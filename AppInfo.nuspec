@@ -6,7 +6,7 @@
     <title>App Info Plugin for Xamarin and Windows</title>
     <authors>Alberto Fustinoni</authors>
     <owners>Alberto Fustinoni</owners>
-    <licenseUrl>https://github.com/jamesmontemagno/ConnectivityPlugin/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/albertofustinoni/AppInfoPlugin/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/albertofustinoni/AppInfoPlugin</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/ConnectivityPlugin/master/art/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
