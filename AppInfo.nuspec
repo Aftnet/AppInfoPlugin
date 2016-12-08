@@ -8,7 +8,7 @@
     <owners>Alberto Fustinoni</owners>
     <licenseUrl>https://github.com/albertofustinoni/AppInfoPlugin/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/albertofustinoni/AppInfoPlugin</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/ConnectivityPlugin/master/art/icon.png</iconUrl>
+    <iconUrl>https://github.com/albertofustinoni/AppInfoPlugin/raw/master/Icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Get app info, such as display name, version and package id</description>
     <releaseNotes></releaseNotes>
