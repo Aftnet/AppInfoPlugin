@@ -7,11 +7,11 @@
     <authors>Alberto Fustinoni</authors>
     <owners>Alberto Fustinoni</owners>
     <licenseUrl>https://github.com/jamesmontemagno/ConnectivityPlugin/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/jamesmontemagno/ConnectivityPlugin</projectUrl>
+    <projectUrl>https://github.com/albertofustinoni/AppInfoPlugin</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/ConnectivityPlugin/master/art/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Get app info, such as display name, version and package id</description>
-    <releaseNotes>See: https://github.com/jamesmontemagno/ConnectivityPlugin/blob/master/CHANGELOG.md </releaseNotes>
+    <releaseNotes></releaseNotes>
     <summary>Get app info, such as display name, version and package id</summary>
     <tags>xamarin, pcl, xam.pcl, app info, app information, plugin for xamarin, plugins, wifi, uwp, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
     <dependencies>
