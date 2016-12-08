@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="2.8.1">
+    <id>Xam.Plugin.AppInfo</id>
+    <version>$version$</version>
+    <title>App Info Plugin for Xamarin and Windows</title>
+    <authors>Alberto Fustinoni</authors>
+    <owners>Alberto Fustinoni</owners>
+    <licenseUrl>https://github.com/jamesmontemagno/ConnectivityPlugin/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jamesmontemagno/ConnectivityPlugin</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/ConnectivityPlugin/master/art/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Get app info, such as display name, version and package id</description>
+    <releaseNotes>See: https://github.com/jamesmontemagno/ConnectivityPlugin/blob/master/CHANGELOG.md </releaseNotes>
+    <summary>Get app info, such as display name, version and package id</summary>
+    <tags>xamarin, pcl, xam.pcl, app info, app information, plugin for xamarin, plugins, wifi, uwp, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+
+    <!--Core-->
+    <file src="AppInfo\Plugin.AppInfo\bin\$configuration$\Plugin.AppInfo.dll" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo\bin\$configuration$\Plugin.AppInfo.xml" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\portable-net45+wp80+win8+wpa81\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--Xamarin.Android-->
+    <file src="AppInfo\Plugin.AppInfo.Android\bin\$configuration$\Plugin.AppInfo.dll" target="lib\MonoAndroid10\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Android\bin\$configuration$\Plugin.AppInfo.xml" target="lib\MonoAndroid10\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Android\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\MonoAndroid10\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\MonoAndroid10\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\MonoAndroid10\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--Xamarin.iOS Unified-->
+    <file src="AppInfo\Plugin.AppInfo.iOS\bin\iPhone\$configuration$\Plugin.AppInfo.dll" target="lib\Xamarin.iOS10\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.iOS\bin\iPhone\$configuration$\Plugin.AppInfo.xml" target="lib\Xamarin.iOS10\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.AppInfo.Abstractions.xml" />
+
+    <!--UWP-->
+    <file src="AppInfo\Plugin.AppInfo.UWP\bin\$configuration$\Plugin.AppInfo.dll" target="lib\UAP10\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.UWP\bin\$configuration$\Plugin.AppInfo.xml" target="lib\UAP10\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.UWP\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\UAP10\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\UAP10\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\UAP10\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\UAP10\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--Net 4.5-->
+    <file src="AppInfo\Plugin.AppInfo.WindowsDesktop\bin\$configuration$\Plugin.AppInfo.dll" target="lib\net45\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsDesktop\bin\$configuration$\Plugin.AppInfo.xml" target="lib\net45\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsDesktop\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\net45\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\net45\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\net45\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\net45\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--Win Phone 8-->
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone8\bin\$configuration$\Plugin.AppInfo.dll" target="lib\wp80\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone8\bin\$configuration$\Plugin.AppInfo.xml" target="lib\wp80\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone8\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\wp80\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\wp80\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\wp80\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\wp80\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--Win Phone 81-->
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone81\Bin\$configuration$\Plugin.AppInfo.dll" target="lib\wpa81\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone81\Bin\$configuration$\Plugin.AppInfo.xml" target="lib\wpa81\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsPhone81\Bin\$configuration$\Plugin.AppInfo.pdb" target="lib\wpa81\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\wpa81\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\wpa81\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\wpa81\Plugin.AppInfo.Abstractions.pdb" />
+
+    <!--WinStore-->
+    <file src="AppInfo\Plugin.AppInfo.WindowsStore\bin\$configuration$\Plugin.AppInfo.dll" target="lib\win8\Plugin.AppInfo.dll" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsStore\bin\$configuration$\Plugin.AppInfo.xml" target="lib\win8\Plugin.AppInfo.xml" />
+    <file src="AppInfo\Plugin.AppInfo.WindowsStore\bin\$configuration$\Plugin.AppInfo.pdb" target="lib\win8\Plugin.AppInfo.pdb" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.dll" target="lib\win8\Plugin.AppInfo.Abstractions.dll" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.xml" target="lib\win8\Plugin.AppInfo.Abstractions.xml" />
+    <file src="AppInfo\Plugin.AppInfo.Abstractions\bin\$configuration$\Plugin.AppInfo.Abstractions.pdb" target="lib\win8\Plugin.AppInfo.Abstractions.pdb" />
+
+  </files>
+</package>
